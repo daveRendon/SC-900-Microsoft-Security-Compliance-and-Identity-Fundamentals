@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Explore the eDiscovery (Standard) workflow'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 5: Describe the eDiscovery and audit capabilities of Microsoft Purview; Unit 2:  Describe the eDiscovery solutions in Microsoft 365'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview; Module 3: Describe the data compliance solutions of Microsoft Purview; Unit 2:  Describe eDiscovery'
 ---
 --->
 
@@ -10,9 +10,9 @@ Demo:
 
 This demo maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Microsoft compliance
-- Module: Describe the eDiscovery and audit capabilities of Microsoft Purview
-- Unit:  Describe the eDiscovery solutions in Microsoft Purview
+- Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview
+- Module: Describe the data compliance solutions of Microsoft Purview
+- Unit:  Describe eDiscovery
 
 ## Demo scenario
 

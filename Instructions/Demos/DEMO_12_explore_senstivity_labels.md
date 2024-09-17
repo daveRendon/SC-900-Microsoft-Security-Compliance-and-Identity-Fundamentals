@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Sensitivity labels in Microsoft Purview'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview solutions; Module 2:Describe the data security solutions of Microsoft Purview; Unit 4: Describe sensitivity labels and policies in Microsoft Purview Information Protection'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview; Module 2:Describe the data security solutions of Microsoft Purview; Unit 4: Describe sensitivity labels and policies in Microsoft Purview Information Protection'
 ---
 --->
 
@@ -10,7 +10,7 @@ Demo:
 
 This demo maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview solutions
+- Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview
 - Module: Describe the data security solutions of Microsoft Purview
 - Unit: Describe sensitivity labels and policies in Microsoft Purview Information Protection
 

@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
-    Learning Path/Module/Unit: 'Describe the capabilities of the Microsoft Priva and Microsoft Purview solutions; Module 2: Describe the data compliance solutions of Microsoft Purview; Unit 4: Describe Compliance Manager'
+    Learning Path/Module/Unit: 'Describe the capabilities of the Microsoft Priva and Microsoft Purview; Module 2: Describe the data compliance solutions of Microsoft Purview; Unit 4: Describe Compliance Manager'
 ---
 --->
 
@@ -10,7 +10,7 @@ Demo:
 
 This demo maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview solutions
+- Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview
 - Module: Describe the data compliance solutions of Microsoft Purview
 - Unit: Describe Compliance Manager
 
