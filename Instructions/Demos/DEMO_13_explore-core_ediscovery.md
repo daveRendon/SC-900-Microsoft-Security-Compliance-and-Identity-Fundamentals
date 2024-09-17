@@ -16,32 +16,28 @@ This demo maps to the following Learn content:
 
 ## Demo scenario
 
-In this demo you'll do a walk-through of the steps required for setting up eDiscovery, including setting up role permissions, creating an eDiscovery case, creating an eDiscovery hold and creating a search query.  Note:  Licensing for eDiscovery (Standard) requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support eDiscovery (Standard), visit [Get started with eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+In this demo you'll do a walk-through of the steps required for setting up eDiscovery, including setting up role permissions, creating an eDiscovery case, creating an eDiscovery hold and creating a search query.  NOTE: In the Microsoft Purview portal updates to the user interface are rolling out, gradually. Some lab/demo tenant may not yet show the newest UI, so all lab steps are shown using the Classic eDiscovery UI.
 
 ### Demo Part 1
 
 To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this part of the demo, you as the global admin, will walk through the process of adding specific users as members of the eDiscovery Manager role group.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
-
-1. From the left navigation pane, expand (select the down arrow) **Roles & Scopes** then select **Permissions**.
-
-1. Under Microsoft Purview solutions, select **Roles**.
-
-1. In the search field, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.  Note the roles in the role group.
-
-1. Select **Edit**.  Notice how there are two subgroups, eDiscovery Manager and eDiscovery Administrator.  
-    1. The "Manage eDiscovery Manager" page allows you to add users to the role of eDiscovery manager. For this demo, we'll add members to the eDiscovery Administrator subgroup so select **Next**.
-    1. On the "Manage eDiscovery Administrator" page, select **Choose users** . Search for and select **MOD Administrator** and **Megan Bowen** then press **Select** at the bottom of the page, then select **Next** and then **Save**.
-    1. On the "You successfully updated the role group" page, select **Done**.
+1. Open the browser tab for **Microsoft Purview**. If you previously closed it, open a browser tab and in the address bar, enter **https://purview.microsoft.com**. To access the new Microsoft Purview portal, select the box next to where it says, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.  
+1. From the left navigation panel, select **Settings**.
+1. From the navigation panel that opens, select **Roles and scoped** to expand the option, then select **Role groups**.
+1. In the search box on the right side of the screen, search on the term **eDiscovery**.  Select **eDiscovery Manager**.
+    1. Select **Edit**.
+    1. Select **Choose users**.
+    1. Search for MOD Administrator, select the box next to **MOD Administrator** then select the **Select** button on the bottom of the page.
+    1. Select **Next** then select **Save**, then finally select **Done**.
 
 1. Keep this browser tab open.
 
 ### Demo Part 2
 
-In this part you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
+In this part you will create a case to start using eDiscovery (Standard).
 
-1. You should still be on the compliance portal roles page. From the left navigation panel, under Solutions, select **eDiscovery** then select **Standard**.
+1. From the left navigation panel, select **Solutions**, select **eDiscovery** then select **Standard cases**.
 
 1. From the top of the eDiscovery (Standard) page, select **+ Create a case**.
 
@@ -85,7 +81,7 @@ With a hold in place, you'll create a search query.  Once your search is complet
 
 1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
 
-1. In the Choose locations page, select **locations on hold** and unselect **Add App Content for On-Premises users**, as your lab environment has no on-premises  users, then select **Next**.
+1. In the Choose locations page, select **locations on hold** and deselect **Add App Content for On-Premises users**, as your lab environment has no on-premises  users, then select **Next**.
 
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 

@@ -15,9 +15,9 @@ Tenants must not be converted to a paid subscription. Tenants obtained as a part
 
 ## Pre-Demo Setup of the Microsoft 365 Tenant
 
-### Enable Microsoft 365 audit log
+### Enable Microsoft 365 audit log and file monitoring
 
-In this setup task, you'll enable the Audit log capability in Microsoft 365.  Although documentation indicates that audit log is turned on by default, most lab tenants don't have this feature enabled, and it can take several hours for this to take effect.  It's beneficial to enable this feature, as Microsoft 365 uses audit logs for user insights and activities identified in policies and analytics insights.
+In this setup task, you'll enable the Audit log and file monitoring capabilities in Microsoft 365.
 
 1. Open Microsoft Edge. In the address bar, enter **https://admin.microsoft.com**.
 
@@ -25,31 +25,33 @@ In this setup task, you'll enable the Audit log capability in Microsoft 365.  Al
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
+1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of Microsoft Defender.  
 
 1. From the left navigation panel of the Microsoft Purview compliance portal, select **Show all**.
 
-1. In the left navigation panel, under solutions, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft 365 Defender home page.
+1. In the left navigation panel, scroll down and expand **System**.  From the expanded list, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft Purview portal.
 
-1. Verify that the **Search** tab is selected (underlined).
+1. Once you land on the Audit page, wait 1-2 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.
 
-1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.
+1. From the left navigation panel, under System, select **Settings**.
 
-1. Return to the home page of the Microsoft Purview compliance portal by selecting **Home** from the left navigation panel.
+1. From the settings page, select **Cloud apps**.   Scroll down, then under Information Protection select **Files**.
 
-### Microsoft Defender for Cloud Apps file monitoring
+1. If not already enabled, select the box next to where it says **Enable file monitoring** then select **Save**.  
 
-In this setup task, you will enable file monitoring in Microsoft Defender for Cloud Apps.
+### Configure Compliance administrator role
 
-1. Open the browser tab for the Microsoft 365 admin center.  If you previously closed it, open a new browser tab and in the address bar, enter **https://admin.microsoft.com** and from the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+In this setup task, you'll add yourself, as the MOD administrator, to the Compliance administrator role group.
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
-
-1. From the left navigation panel, select **Files**, which is listed under Cloud apps.
-
-1. If not already enabled, you'll need to select **Enable file monitoring** and select the box next to where it says **Enable file monitoring** then select **Save**.  
-
-1. From the left navigation panel, under cloud apps, select **Files** to return to the files page.  If you successfully enabled file monitoring, you should see the filter options on the top of the page.  It may take some time for files from the pre-configured lab tenant to be displayed.
+1. Open a new Microsoft Edge browser tab. In the address bar, enter **https://purview.microsoft.com**. To access the new Microsoft Purview portal, select the box next to where it says, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.  
+1. From the left navigation panel, select **Settings**.
+1. From the navigation panel that opens, select **Roles and scoped** to expand the option, then select **Role groups**.
+1. In the search box on the right side of the screen, search on the term **Compliance**.  Select **Compliance Administrator**.
+    1. Select **Edit**.
+    1. Select **Choose users**.
+    1. Search for MOD Administrator, select the box next to **MOD Administrator** then select the **Select** button on the bottom of the page.
+    1. Select **Next** then select **Save**, then finally select **Done**.
+1. This concludes the setup for the Microsoft 365 tenant, you can close the browser tabs.
 
 ## Pre-Demo setup of the Azure Cloud Slice Subscription
 
@@ -67,6 +69,7 @@ Check that a VM has already been created. If not, then set it up now. You will u
     1. Resource group: Select **Create new** and enter **LabsSC900**, then select **OK**.
     1. Virtual machine name: enter **SC900-WinVM**.
     1. Availability options: From the drop down, select **No infrastructure redundancy required**.
+    1. Security type: from the drop-down, select **Standard**.
     1. Image: From the drop down select **Windows 11 Pro, version 22H2 - x64 Gen2** (or any Windows 10 or Window 11 image listed).
     1. Size: select **See all sizes** and select **Standard_B1s** then select **Select** at the bottom of the page.
     1. Username: enter **SC900-VM-User**
@@ -116,7 +119,7 @@ The objective here is simply to access Microsoft Defender to Cloud for the first
 
 ### Microsoft Sentinel
 
-Check to that an instance of Microsoft Sentinel has already been created. If not, then set it up now as you will need it as part of the walk-through demo on Microsoft Sentinel.
+Check to make sure that an instance of Microsoft Sentinel has already been created. If not, then set it up now as you will need it as part of the walk-through demo on Microsoft Sentinel.
 
 1. Open the Home-Microsoft Azure tab in your browser.
 

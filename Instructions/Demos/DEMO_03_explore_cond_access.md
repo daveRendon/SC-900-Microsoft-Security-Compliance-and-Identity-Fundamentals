@@ -22,7 +22,7 @@ In this demo, you'll walk through the various options available for a conditiona
 
 1. From the left navigation pane, expand **Protection** then select **Conditional Access**.
 
-1. The Conditional access overview page is displayed.  Here you will see tiles showing the Policy summary and general alerts.  From the left navigation panel, select **Policies**.
+1. The Conditional access overview page is displayed.  Here you'll see information about Policy summary, What's new, and general alerts.  From the left navigation panel of the Conditional Access window, select **Policies**.
 
 1. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. To show the settings associated with conditional access, select **+ New policy**.
 
@@ -34,9 +34,11 @@ In this demo, you'll walk through the various options available for a conditiona
         1. Select **Cloud apps** then under the Include tab, select the option **Select apps** then underneath where it says **Select**, select **None**, a window will open to select one or more of the apps for which the policy will apply.
         1. Close out of the Select cloud apps window by selecting the **X** on the top right corner of the window.
         1. As time permits you may choose to go through the other options (user actions and authentication context) to see the configuration options for each.
+    1. **Network** - hover your mouse over the information icon next to where is says "Network".  Call out that network locations are determined by IP address range or GPS coordinates the user is signing in from.  Select **Not configured** to vew the available options.
     1. **Conditions** - hover your mouse over the information icon next to where it says “Conditions” and call out that this sets conditions which define when the policy will apply. For example, 'location. Select **0 conditions selected**. Speak to the different “signals” listed.   Select a few of the options by first selecting the information icon to define what it is and then selecting **Not configured** for the specific item to show the various options.
         1. **User risk** - A user risk represents the probability that a given identity or account is compromised. These risks are calculated offline using Microsoft's internal and external threat intelligence sources.
         1. **Sign-in risk** - A sign-in risk represents the probability that a given authentication request isn't authorized by the identity owner. Examples may include is the sign-in is from an anonymous IP address or atypical travel, etc.
+        1. **Insider risk** - Insider risk, configured in Adaptive Protection, assesses risk based on a user's risky data related activities.
         1. **Device Platform** - Platform the user is signing in from. For example, 'iOS’.
         1. **Location** - Location (determined using IP address range) the user is signing in from
         1. **Client apps** - Software the user is employing to access the cloud app. For example, 'Browser’

@@ -22,28 +22,31 @@ In this demo, you'll explore the various settings available for authentication i
 
 1. From the left navigation pane, expand **Protection** then select **Authentication methods**.
 
-1. Selecting authentication methods displays the policies page.  Here you will see the available authentication methods and if they are enabled.  We'll go through a few of these methods:.  
+1. Selecting authentication methods displays the policies page.  Here you will see the available, built-in authentication methods and if they are enabled.  We'll go through a few of these methods:.  
+
+    1. Select **Microsoft Authenticator**.  This is the flagship authentication methods.  
+        1. Here you enable the features and target who to include.  You can do this for all users or groups. Once you have identified which users/groups to include you can identify specific groups to exclude.  
+        1. On the **Configure** tab you can select if a specific feature is managed by Microsoft. This setting is a convenient way for an organization to allow Microsoft to enable or disable a feature by default. This can help an organization improve their security posture.
+        1. Don't change any settings. Close out of the page, by selecting the **X** on the top right corner of the page.
+
     1. Select **SMS**.  Read the description at the top of the page, "This authentication method delivers a one-time code via SMS to a user's phone, and the user then inputs that code to sign-in. SMS is usable for multi-factor authentication and Self-Service Password Reset; it can also be configured to be used as a first factor."
         1. A point to call out here is that some authentication methods can be used for MFA and/or SSPR.  Some can be used only as a primary form of authentication while others can only be used as a secondary form of authentication.
         1. To configure a particular authentication method, you need to enable it and then target which users and/or groups to include.  You can also select which groups to exclude.
         1. Don't change any settings.  Close out of the SMS settings page by select the **X** on the top right of the page.  
-    1. Let's take a look at the voice call settings.  Select **Voice call**, from the description you can see an important difference.  Voice calls is not usable as a first-factor authentication method.
-    1. Now select **Microsoft Authenticator**.  This is the flagship authentication methods.  
-        1. Here you enable the features and target who to include.  You can do this for all users or groups. Once you have identified which users/groups to include you can identify specific groups to exclude.  
-        1. On the **Configure** tab you can select if a specific feature is managed by Microsoft. This setting is a convenient way for an organization to allow Microsoft to enable or disable a feature by default. This can help an organization improve their security posture.
-        1. Don't change any settings. Close out of the page, by selecting the **X** on teh top right corner of the page.
+    1. Let's take a look at the voice call settings.  Select **Voice call**, from the description you can see an important difference.  Voice calls is not usable as a first-factor authentication method. Close out of the page, by selecting the **X** on the top right corner of the page.
+
  
-1. Now let's look at password protection. Select **Password Protection**.  Note the different configuration parameters available.  
+1. Now, within the Authentication methods page, let's look at password protection. Select **Password Protection**.  Note the different configuration parameters available.  
     1. Select the information icon next to **Lockout threshold** to view the meaning of this parameter.  Currently it is set to 10, which means that there can be up to 10 failed sign-ins before the account is locked out.  Seems a bit high, so you can set to a different value.
     1. Select the information icon for each of the different parameters and speak to it, briefly.  You'll especially want to call out the custom banned password list.
 
-1. Authentication strengths is a Conditional Access control that allows administrators to specify which combination of authentication methods can be used to access a resource. You'll see this in Conditional access.
+1. Within the Authentication methods page, select **Authentication strengths**.  Authentication strengths is a Conditional Access control that allows administrators to specify which combination of authentication methods can be used to access a resource. You'll see this in Conditional access.  Select **New authentication strength** to view available options. Do not change anything.  Close the New authentication strength window.
 
-1. From the left navigation pane for Authentication methods, select **Activity**.
-    1. The **Registration** is shown with a blue underline.  Here  you can view registration activity for different authentication methods.
+1. Within the Authentication methods page, select **Activity**.
+    1. The **Registration** is shown with a blue underline.  Here you can view registration activity for different authentication methods.
     1. Select **Usage** to view usage details and note that you can add different filters.
 
-1. In this module you also spoke about multifactor authentication. You will cover more about MFA in the demo on conditional access, but you may want to take a minute to show some basic settings.  From Microsoft Entra admin center navigation panel, select **Multifactor authentication**.  You may need to select **Show more** under the section on Protection, in the left navigation panel.
+1. In this module you also spoke about multifactor authentication. You will cover more about MFA in the demo on conditional access, but you may want to take a minute to show some basic settings.  From Microsoft Entra admin center navigation panel, under Protection, select **Multifactor authentication**.  You may need to select **Show more** under the section on Protection, in the left navigation panel.
     1. On the **Getting started** page, it shows that the best way to apply it to users is through conditional access, but there are some specific settings you configure here.
     1. Select **Account lockout** and call out the configurable lockout parameters.
     1. Select **Block/unblock users**, call out that here is where an admin can manually block/unblock users.  Note that a blocked user will remain blocked for 90 days unless manually unblocked.

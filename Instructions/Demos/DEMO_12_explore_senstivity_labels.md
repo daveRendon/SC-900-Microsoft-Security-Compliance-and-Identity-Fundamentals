@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Sensitivity labels in Microsoft Purview'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 3:Describe information protection, data lifecycle management, and data governance capabilities in Microsoft Purview; Unit 4: Describe sensitivity labels'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview solutions; Module 2:Describe the data security solutions of Microsoft Purview; Unit 4: Describe sensitivity labels and policies in Microsoft Purview Information Protection'
 ---
 --->
 
@@ -10,9 +10,9 @@ Demo:
 
 This demo maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Microsoft compliance
-- Module: Describe information protection, data lifecycle management, and data governance capabilities in Microsoft Purview
-- Unit: Describe sensitivity labels
+- Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview solutions
+- Module: Describe the data security solutions of Microsoft Purview
+- Unit: Describe sensitivity labels and policies in Microsoft Purview Information Protection
 
 ## Demo scenario
 
@@ -22,12 +22,11 @@ In this demo, you'll show the capabilities of sensitivity labels.  You'll go thr
 
 In this demo, you show the settings for an existing sensitivity label and the corresponding policy to publish the label.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
+1. Open a new Microsoft Edge browser tab. In the address bar, enter **https://purview.microsoft.com**. To access the new Microsoft Purview portal, select the box next to where it says, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.  
 
-1. In the left navigation panel, under solutions, expand **Information protection** then select **Overview**.  The overview page includes information about top sensitivity labels applied to content, top activities detected, locations where sensitivity labels are applied and more.  
-    1. On the overview page, you may see a yellow information box indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
+1. From the landing page of the new Microsoft Purview portal, select the **View all solutions** tile, then select the **Information Manager** tile. Alternatively, you select **Solutions** from the left navigation panel, then select **Information Protection**.
 
-1. From the left navigation panel, select **Labels**.
+1. You'll land on the overview page. From the left navigation panel, select **Sensitivity labels**.
 
 1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select the label named **Confidential-Finance**.  A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** (it may also show as a pencil icon) at the top of the page to view some of the basic configuration settings. If you don't see this option, select the ellipsis.
     1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
@@ -38,7 +37,7 @@ In this demo, you show the settings for an existing sensitivity label and the co
     1. This window defines protection settings for teams, groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
     1. This window is a preview feature to automatically apply this label to schematized data assets in Microsoft Purview Data Map (such as SQL, Synapse, and more) that contain the sensitive info types you choose.  This feature is not enabled. Select **Cancel** at the bottom of the page to exit the label configuration wizard and return to the Information Protection page.
 
-1. From the left navigation panel, select **Label policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
+1. From the left navigation panel, select **Policies** then select **Publishing policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
 
 1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy. Select **Edit policy** from the top of the window.  Here you will walk through the settings without changing anything.
     1. Review the description for “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
@@ -54,7 +53,7 @@ In this demo, you show the settings for an existing sensitivity label and the co
 
 1. From the left navigation panel, under Information protection, select Auto-labeling. Review the description. Note that you create auto-labeling policies to automatically apply sensitivity labels to email messages or OneDrive and SharePoint files that contain sensitive info. If there are auto-labeling policies configured, select one and review the policy information in the details pane.  If no policy is listed, you may choose to walk-through the steps to create one, if time permits.
 
-1. From the left navigation panel, select Home to return to the Microsoft Purview compliance portal.
+1. From the left navigation panel, select Home to return to the Microsoft Purview  portal.
 
 1. Keep this browser tab open.
 
@@ -62,7 +61,7 @@ In this demo, you show the settings for an existing sensitivity label and the co
 
 In this step, you'll show the process of applying a label from the perspective of the user (in this case the user is the admin).  For the purpose of viewing the impact of applying the label, you'll select the Confidential - Finance label because this label applies a watermark.
 
-1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Contoso Electronics. Select the **Word icon**.  
+1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Microsoft Purview (on top of the home icon). Select the **Word icon**.  
 
 1. Select **Blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press the **Enter** key on your keyboard.
 

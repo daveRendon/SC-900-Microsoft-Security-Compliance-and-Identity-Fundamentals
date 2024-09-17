@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: Microsoft Defender for Cloud Apps '
-    Module: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 4: Describe the threat protection capabilities of Microsoft 365; Unit 5: Describe Microsoft Defender for Cloud Apps'
+    Module: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 4: Describe the threat protection capabilities of Microsoft Defender XDR; Unit 5: Describe Microsoft Defender for Cloud Apps'
 ---
 --->
 
@@ -11,7 +11,7 @@ Demo:
 This demo maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
-- Module: Describe the threat protection capabilities of Microsoft 365
+- Module: Describe the threat protection capabilities of Microsoft Defender XDR
 - Unit: Describe Microsoft Defender for Cloud Apps
 
 ## Demo scenario
@@ -24,9 +24,9 @@ In this demo, you'll show the capabilities of Microsoft Defender for Cloud Apps.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
+1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft Defender portal.  
 
-1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.
+1. If this is the first time you visit the Microsoft Defender portal, you may get a pop-up window to take a quick tour.
 
 1. From the left navigation panel, select **Cloud apps** to expand the list then select **Cloud Discovery**. This takes you to the Dashboard view.  Speak to the information available on the dashboard. From the dashboard view, you can select different tabs from the top of the page.  Go through each tab on the top of the page.
 
@@ -41,7 +41,7 @@ In this demo, you'll show the capabilities of Microsoft Defender for Cloud Apps.
     1. To see the option for continuous reports, select the **Actions** on the top-right corner of the page and from the drop-down select **Configure automatic upload**.  There are no data sources connected, but this is where you would add a data source. Select **Add a data source** then select the drop-down arrow in the **Select appliance** field to see the types of appliances that you can connect as a data source.  Select **Cancel** to exit.
     1. From the left navigation panel, select **Cloud discovery** to return to Cloud discovery page.
 
-1. With Microsoft 365 Defender for Cloud apps, you can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  Note the available settings.
+1. With Microsoft Defender for Cloud apps, you can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  Note the available settings.
     1. From the left navigation panel of the Cloud apps settings window, select **App connectors** (you may need to scroll down).
     1. The App connectors page is where you would see any app connectors already setup and where you can add an app connector.
     1. You should see Microsoft 365 listed. If it's showing a connection error, go to the vertical ellipses on the right side of the line item, and select **edit settings**.  To reconnect, select **Connect Office 365** on the bottom of the page. The page should now show that Office 365 is connected, select **Done**.  The status will now show with a yellow warning sign, indicating there is no recent status.  It will take some time for status to update as the retroactive scan time period differs per app, and lab tenants may experience longer than normal delays.
@@ -50,7 +50,7 @@ In this demo, you'll show the capabilities of Microsoft Defender for Cloud Apps.
 
 1. While on the Cloud apps settings page, it's worth spending a few minutes also exploring some of the other Cloud Discovery settings.  
     1. Select **Conditional Access App Control apps** and note the description, "The Conditional Access App Control adds real-time monitoring and control capabilities for your apps."
-    1. Select Microsoft Information Protection, speak to the available settings.
+    1. Select **Microsoft Information Protection**, speak to the available settings.
     1. Explore others at will. Call out the level of integration and flexibility.
 
 1. Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
@@ -69,15 +69,11 @@ In this part of the demo, you'll show the capabilities of the Cloud app catalog.
 
 1. Keep this page open, as you'll use it in the next task.
 
-### Demo Part 3 - Explore the Activity log and Files
+### Demo Part 3 - Explore the Activity log
 
-Explore ways in which you can investigate the recorded activities with the activity log and files.
+Explore ways in which you can investigate the recorded activities with the activity log.
 
 1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
-
-1. To provide data protection, Microsoft Defender for Cloud Apps gives you visibility into all the files from your connected apps, for example all the files stored in SharePoint and Salesforce. From the left navigation pane, select and explore the **Files** option.
-    1. The ability to scan files must be enabled as part of the Information protection settings of Microsoft 365 Cloud apps.  Select **Enable file monitoring** and select the box next to where it says **Enable file monitoring** then select **Save**.  
-    1. Return to files by selecting **Files**, listed under cloud apps, from the left navigation panel. You may not see anything listed because it can take several days before you can see your files but its worth calling out that once files are listed you can filter data by app, owner, access level, file type, and matched policy. Also, you create a new policy from search and export of the data.
 
 1. Keep this page open, as you'll use it in the next task.
 
@@ -92,7 +88,7 @@ In this part, you'll show the options available for policies in Microsoft Defend
 
 1. From the left navigation panel, select **Policy templates**. To create a policy from one the available templates, select the **+** on the right side of the template line item.  View the different configuration options for the policy.  Select **Cancel** to exit out of the page.
 
-1. From the left navigation panel, select **Home** to return to the home page for Microsoft 365 Defender.
+1. From the left navigation panel, select **Home** to return to the home page for Microsoft Defender.
 
 1. Keep the browser tab open if you plan to continue with the next demo.
 

@@ -27,7 +27,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previo
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-1. Under Admin centers, select **Identity** (you may need to select **Show all** and scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
+1. Under Admin centers, select **Identity** (you may need to select **Show all** and scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center.
 
 1. From the left navigation pane, expand **Users** then select **All users**. Notice that your tenant is already configured with users.
 
@@ -66,7 +66,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previo
 
     1. Notice the list of available groups.  From the list, select **Operations**.  From the bottom of the page, select the **Select** button.  It may take a few seconds but you should see the operations group showup on the assignments page.
 
-    1. From the top of the page, select **Add role**.  A window opens that shows all the available directory roles.  View the available options, but don't add any new roles.  Close this page by selecting the **X** on the top right corner of the directory roles page.
+    1. From the top of the page, select **+ Add role**.  A window opens that shows all the available directory roles.  View the available options, but don't add any new roles.  Close this page by selecting the **X** on the top right corner of the directory roles page.
     1. From the bottom of the page, select **Review + create**. A summary of the settings will be displayed.  From the bottom of the page, select **Create**.
 
 1. You are returned to the users page.  After a few seconds, Sara Perez will be listed.  You may need to select the **refresh** icon on the top of the page.
@@ -75,23 +75,28 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previo
 
 1. The left navigation panel shows the various options that can be configured for the user. View the available options.
 
-1. From the left navigation panel, select **Licenses**.  Notice that there are no license assignments found for this user.  NOTE:  Licenses can only be assigned if a usage location was configured. If you did not set the usage location, go back to that step in the previous task.
+1. From the left navigation panel, select **Licenses**.  Notice that there are no license assignments found for this user, also note the warning icon that says, "Adding, removing, and reprocessing licensing assignments is only available within the M365 Admin Center."  You'll do that in the next task.  NOTE:  Licenses can only be assigned if a usage location was configured. If you did not set the usage location, go back to that step now.
 
-    1. To add a license select **+ Assignments** from the top of the main window.
+### Task 2
 
-    1. Under Select licenses, select **Microsoft Power Apps for Developer** and **Microsoft Power Automate Free** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+In this task, you’ll assign a license to the user you just created, using the Microsoft 365 admin center.
 
-    1. Select the **X** on the top right of the screen to close the License assignments window.
+1. Open the browser tab **Home - Microsoft 365 admin center**.
 
-    1. Select the **Refresh icon** at the top of the page to confirm the license assignments.
+1. From the left navigation panel, under users, select **Active users**.  From the list of users, select **Sara Perez**.  A window opens showing information about the user.  
+
+    1. Select the **Licenses and apps** tab.
+    1. For each of the licenses listed, you see number of available licenses.  Since there are no available Microsoft 365 E5 licenses (they have already been assigned to other users), assign the **Microsoft Power Apps Developer** and the **Microsoft Power Automate Free** licenses by selecting the check box next to them.
+    1. Select **Save changes**. A notification on the top right corner of the screen should show that license assignments succeeded.
+    1. Close the page by selecting the **X** at the top right corner of the page.
 
 1. Return to the Microsoft Entra admin center by selecting **Home** from the left navigation panel or from the top-left of the screen (the bread-crumb), above where it says Sara Perez | Licenses.
 
-1. You have successfully created and configured a user in Microsoft Entra ID.
+1. You have successfully assigned licenses to the user.
 
 1. Sign out of all the open browser tabs. Sign out by selecting the user icon next to the email address on the top right corner of the screen then selecting **Sign out**. Close all the browser windows.
 
-### Task 2
+### Task 3
 
 In this task, you'll sign in as Sara Perez, for the first time.
 
