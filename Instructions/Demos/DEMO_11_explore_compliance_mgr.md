@@ -1,7 +1,7 @@
 <!---
 ---
 Demo:
-    Title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
+    Title: 'Explore the Microsoft Purview portal & Compliance Manager'
     Learning Path/Module/Unit: 'Describe the capabilities of the Microsoft Priva and Microsoft Purview; Module 2: Describe the data compliance solutions of Microsoft Purview; Unit 4: Describe Compliance Manager'
 ---
 --->
@@ -20,7 +20,7 @@ In this demo, you'll show the new Microsoft Purview portal home page and ways in
 
 ### Demo Part 1
 
-Show the Microsoft Purview portal home page and how to customize the card view and the navigation panel.
+Show the Microsoft Purview portal home page.
 
 1. Open Microsoft Edge. In the address bar, enter **https://purview.microsoft.com**. You should already be signed in as the admin.  If not, sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH).
 

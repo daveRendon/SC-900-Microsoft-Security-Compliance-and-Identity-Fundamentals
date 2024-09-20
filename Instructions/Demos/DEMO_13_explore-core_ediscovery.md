@@ -1,7 +1,7 @@
 <!---
 ---
 Demo:
-    Title: 'Explore the eDiscovery (Standard) workflow'
+    Title: 'Explore the eDiscovery workflow'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview; Module 3: Describe the data compliance solutions of Microsoft Purview; Unit 2:  Describe eDiscovery'
 ---
 --->
