@@ -64,7 +64,7 @@ In this task, you'll create a network security group, assign the network interfa
     1. Select **Associate**.
     2. In the field for network interface associations, select the **down-arrow**, select **sc900-winvmXXX**, then select **OK** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.  The NSG is now assigned to the network interface of your VM.
 
-1. Switch back to the **SC900-WinWM - Microsoft Azure** tab on the browser.  Refresh the page. Next to where it says Network security group, uou should now see the name of the NSG you just created.  If you still don't see it, wait another minute and then refresh the page again.
+1. Switch back to the **SC900-WinVM - Microsoft Azure** tab on the browser.  Refresh the page. Next to where it says Network security group, uou should now see the name of the NSG you just created.  If you still don't see it, wait another minute and then refresh the page again.
 
 1. From the left navigation panel, select **Connect**. From the main window, next to where it shows the port number 3389, select **Check access**. The check access function sends signals (traffic) to the default RDP port 3389 of the VM to check if it is accessible. It may take a minute, but you will see Not accessible.  This is expected, because the DenyAllInBound NSG rule denies all inbound traffic to the VM.
 
