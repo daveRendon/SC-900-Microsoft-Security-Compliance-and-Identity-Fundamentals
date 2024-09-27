@@ -16,7 +16,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory).  Additionally, you'll create a user and configure the different settings, including adding licenses.  
 
-**Estimated Time**: 10-15 minutes
+**Estimated Time**: 30 minutes
 
 ### Task 1
 

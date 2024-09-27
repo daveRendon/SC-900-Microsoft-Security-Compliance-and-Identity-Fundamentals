@@ -22,18 +22,16 @@ In this lab you'll go through the steps required for setting up eDiscovery, incl
 
 To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
+1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
 
+1. From the left navigation pane, select **Settings**, expand **Roles and scopes**, then select **Role groups**.
 
-1. From the left navigation pane, expand (select the down arrow) **Roles & Scopes** then select **Permissions**.
+1. In the search field, on the top, right of the page, enter **eDiscovery** then hit Enter on your keyboard.  Select **eDiscovery Manager**.
 
-1. Under Microsoft Purview solutions, select **Roles**.
-
-1. In the search field, enter **eDiscovery** then hit Enter on your keyboard.  Select **eDiscovery Manager**.
-
-1. Select **Edit**.  Notice how there are two subgroups, eDiscovery Manager and eDiscovery Administrator.  
-    1. The "Manage eDiscovery Manager" page allows you to add users to the role of eDiscovery manager. For this lab, we'll add members to the eDiscovery Administrator subgroup so select **Next**.
-    1. On the "Manage eDiscovery Administrator" page, select **Choose users** . Search for and select **MOD Administrator** and **Megan Bowen** then press **Select** at the bottom of the page, then select **Next** and then **Save**.
+1. Select **Edit**. For the purpose of this lab, you'll set yourself as MOD administrator as the eDiscovery Manager and administrator.  In practice, you would designate specific users for specific roles.
+    1. The "Manage eDiscovery Manager" page allows you to add users to the role of eDiscovery manager.
+    1. Select **Choose users**. Search for and select **MOD Administrator** then press **Select** at the bottom of the page, then select **Next**.
+    1. On the "Manage eDiscovery Administrator" page, select **Choose users** . Search for and select **MOD Administrator** then press **Select** at the bottom of the page, then select **Next** and then **Save**.
     1. On the "You successfully updated the role group" page, select **Done**.
 
 1. Keep this browser tab open, as you'll use it in the next task.
@@ -42,9 +40,9 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
 
 In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
 
-1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com**
+1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com** to get to the Microsoft Purview portal.
 
-1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard Cases**.
 
 1. From the top of the eDiscovery (Standard) page, select **+ Create a case**.
 
