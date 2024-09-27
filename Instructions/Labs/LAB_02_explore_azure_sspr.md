@@ -24,7 +24,7 @@ This lab maps to the following Learn content:
 
 In this lab, you, as an admin, will walk through the process of adding a user to the SSPR security group, which is already setup in your Microsoft 365 tenant. With SSPR enabled, you'll then assume the role of a user and go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, will be able to view audit logs and usage data & insights for SSPR.
 
-**Estimated Time**: 15-20 minutes
+**Estimated Time**: 30 minutes
 
 ### Task 1
 
@@ -79,7 +79,7 @@ In this task you, as the admin, will add the user you created in the previous la
 
 ### Task 3
 
-In this task you, as user Sara Perez, will go through the registration process for self service password reset.  This task requires that you have access to a mobile device where you can receive text messages.
+In this task you, as user Sara Perez, will go through the registration process for self service password reset.
 
 1. Open the Microsoft Edge and in the address bar enter **https://login.microsoft.com**.
 
@@ -87,10 +87,13 @@ In this task you, as user Sara Perez, will go through the registration process f
 
 1. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
-1. The “Keep your account secure” page opens.  The window that appears is for the Phone method.
-    1. You're prompted to enter a phone number. Ensure the option **Receive a code** is enabled.   Enter the phone number where you can receive the code and select **Next**.  
-    1. A new window opens indicating a code was sent to the phone you entered.  Enter the code your received and select **Next**. A window opens that indicates your phone was registered. Select **Next** then select **Done**.  
-    1. If you instead want to use email, select **I want to set up a different method** and follow the steps. 
+1. The “Keep your account secure” page opens.  The window that appears and the steps that follow are for the Microsoft Authenticator app method. If you instead want to use email, select **I want to set up a different method** and follow the steps.
+    1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
+    1. You'll begin to setup your account.  Select **Next**.
+    1. Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.
+    1. Select the option to **Scan the QR code**, then using your mobile device, scan the QR code on your PC screen .
+    1. Follow the steps on your PC and mobile device, then select **Next**.
+    1. Once you've setup your security info, you'll see a Success window.  Select **Done**.
 
 1. You can now complete your sign-in. If you see that your sign-in time has expired, just reenter the password.
 
@@ -102,7 +105,7 @@ In this task you, as user Sara Perez, will go through the process of resetting y
 
 1. Open Microsoft Edge.
 
-1. In the address bar, enter **https://login.microsoftonline.com**.
+1. In the address bar, enter **https://login.microsoft.com**.
 
 1. Sign in as Sara Perez, by entering your email **sara@WWLxZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Sara Perez.
 
@@ -112,9 +115,9 @@ In this task you, as user Sara Perez, will go through the process of resetting y
 
 1. In the empty box, enter the characters displayed in image or the words from the audio. Once you've entered them, select **Next**.
 
-1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You're prompted to enter your mobile phone number.  Once you've entered it, select the **Text button**. 
+1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Select the option **Approve a notification on my authenticator app**, then select **Send Notification**.
 
-1. Enter the verification code then press **Next**.
+1. Note the number on your PC and follow the instructions to approve the sign-in using the Microsoft Authenticator app on your mobile device.
 
 1. In the next screen, you're prompted to enter new password and confirm new password.  Enter those now and select the **Finish** button.
 

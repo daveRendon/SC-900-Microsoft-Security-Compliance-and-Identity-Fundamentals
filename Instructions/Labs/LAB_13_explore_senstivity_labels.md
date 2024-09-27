@@ -20,26 +20,24 @@ In this lab, you'll explore the capabilities of sensitivity labels.  You'll go t
 
 ### Task 1
 
-In this task, you'll gain an understanding of what sensitivity labels can do by going through the porcess of creating a new label and creating a policy to publish the label.
+In this task, you'll gain an understanding of what sensitivity labels can do by going through the process of creating a new label and creating a policy to publish the label.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.
+1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.
 
-1. In the left navigation panel, under solutions, expand **Information protection** then select **Overview**. Note the warning at the top of the page and scroll down to view the information available.
-   1. On the Overview page, you may see a yellow information box indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system and there are additional steps that must be completed to protect Teams, SharePoint sites, and Microsoft 365 Groups.
+1. In the left navigation panel, select **Solutions** then select **Information protection**.  You are on the overview page. Scroll down to view the information available.
 
-1. From the left navigation panel, select **Labels**.
-   1. On the Labels page, you may see a yellow information box indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system and there are additional steps that must be completed to protect Teams, SharePoint sites, and Microsoft 365 Groups.
+1. From the left navigation panel, select **Sensitivity labels**.
 
-1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select the label named **Confidential-Finance**.  A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** (it may also show as a pencil icon) at the top of the page to view some of the basic configuration settings. If you don't see this option, select the ellipsis.
-    1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
+1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select the label named **Confidential-Finance**.  A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** If you don't see this option, select the ellipsis.
+    1. Configuration starts with providing basic details for the label.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. Review the scope for this label. Don’t change anything.  Select **Next** at the bottom of the page.
     1. This next screen is where you can choose protection settings for the labeled items. This label is configured to support content marking. Don’t change anything.  Select **Next** at the bottom of the page.
         1. On the content markings page, take note of the information box on the top of the page.  Don’t change any settings.  Select **Next** on the bottom of the page.
     1. You are now in the Auto-labeling for files and emails window.  Read the description of auto-labeling on the top of the page and the information box below it.  Also take note that this label is set for auto-labeling for specific conditions. Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. This window defines protection settings for teams, groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
+    1. This window defines protection settings for groups and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
     1. This window is a preview feature to automatically apply this label to schematized data assets in Microsoft Purview Data Map (such as SQL, Synapse, and more) that contain the sensitive info types you choose.  This feature is not enabled. Select **Cancel** at the bottom of the page to exit the label configuration wizard and return to the Information Protection page.
 
-1. From the left navigation panel, select **Label policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
+1. From the left navigation pane, expand **Policies** then select  **Publishing policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
 
 1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy. Select **Edit policy** from the top of the window.  Here you will walk through the settings without changing anything.
     1. Review the description for “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.

@@ -69,6 +69,8 @@ In this task, you'll go through the process of creating a conditional access pol
 
 1. Select **Microsoft Admin Portals**, then press **Select** at the bottom of the page.  Notice the warning.  
 
+1. Under Network, select **Any network or location**.  Review the options but do not select any options.
+
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions including: user risk, sign-in risk, device platform, location, client apps, or filter for devices.  Explore these configurable options, but do not set any conditions.
 
 1. Now you'll set the access controls.  Under Grant, select **0 controls selected**.
@@ -97,11 +99,18 @@ In this task you'll see the impact of the conditional access policy, from the pe
 
 1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you'll choose a different method.  Select **I want to setup a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
-1. In the window that opens, ensure your country is selected then enter mobile phone number you wish to use.  Ensure that **Text me a code** is selected, then press **Next**.  You'll receive a text message on your phone with a code that you'll need to enter where it says enter code.  Enter the code you received, then press **Next**.  Once confirmed, the screen will display, "SMS verified. Your phone was registered successfully".  Select **Next**. then select **Done**.  this completes the one-time registration process.
+1. The window that appears and the steps that follow are for the Microsoft Authenticator app method. .
+    1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
+    1. You'll begin to setup your account.  Select **Next**.
+    1. Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.
+    1. Select the option to **Scan the QR code**, then using your mobile device, scan the QR code on your PC screen .
+    1. Using the Microsoft Authenticator app on your mobile device, scan the QR code.
+    1. Follow the steps on your PC and mobile device, then select **Next**.
+    1. Once you've setup your security info, you'll see a Success window.  Select **Done**.
 
 1. You should now be able to access the Azure portal.  The Azure portal is a Microsoft Admin portal and therefore requires multi-factor authentication, per the conditional access policy that was created.  
     1. If you get a message indicating that your sign-in timed out you, enter the password and select **Sign in**.
-    1. You'll see a window that requires you to verify your identity.  Select where it says Text =X XXXXXXX to receive a code on your mobile phone, enter the code and select **Verify**.
+    1. You'll see a window that requires you to approve the sign in request.  Note the number on your PC and follow the instructions on the Microsoft Authenticator app.
     1. If you're prompted to stay signed in, select **No**.
 
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting sign out. Then the close all the browser windows.
