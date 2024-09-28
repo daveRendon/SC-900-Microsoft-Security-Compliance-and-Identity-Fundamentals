@@ -16,7 +16,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll walk through the process of creating a Microsoft Sentinel instance.  You'll also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done you'll walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel.
 
-**Estimated Time**: 45-60 minutes
+**Estimated Time**: 60 minutes
 
 ### Task 1
 

@@ -16,7 +16,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll explore the Microsoft 365 Defender portal by walking through the content displayed on the landing page. You'll also explore the options on the navigation panel that provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you'll also explore how Microsoft Secure Score can help an organization improve its security posture.
 
-**Estimated Time**: 10-15 minutes
+**Estimated Time**: 30 minutes
 
 ### Task 1
 

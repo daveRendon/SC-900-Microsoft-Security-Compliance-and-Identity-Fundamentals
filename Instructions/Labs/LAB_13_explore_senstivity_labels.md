@@ -16,7 +16,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll explore the capabilities of sensitivity labels.  You'll go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you'll see how to apply a label and the impact of that label, from the perspective of a user.
 
-**Estimated Time**: 20-25 minutes
+**Estimated Time**: 45 minutes
 
 ### Task 1
 
