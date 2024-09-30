@@ -35,7 +35,7 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 1. You're now in the SC900-WinVM page.  Note some of the basic information about the VM.
 
-1. From the left navigation panel, select **Network Settings**.  The essentials sections of the main window shows the network interface for the VM.  Note how there is nothing listed next to Network security group, as there is not NSG assigned to the interface.
+1. From the left navigation panel, expand **Networking** then select **Network Settings**.  The essentials sections of the main window shows the network interface for the VM.  Note how there is nothing listed next to Network security group, as there is not NSG assigned to the interface.
 
 1. Keep this tab open.
 
@@ -60,7 +60,7 @@ In this task, you'll create a network security group, assign the network interfa
 
 1. You should be on the overview page for the newly created NSG.  If not, then from the left navigation panel, select **Overview**. On the top of the page underneath where it says Essentials, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the Internet.
 
-1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
+1. From the left navigation pane on the NSG-SC900 page, expand **Settings** then select **Network interfaces**.
     1. Select **Associate**.
     2. In the field for network interface associations, select the **down-arrow**, select **sc900-winvmXXX**, then select **OK** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.  The NSG is now assigned to the network interface of your VM.
 
@@ -95,7 +95,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Select **Connect** from the left navigation panel.
 
-1. Select **check access** (verify the port is set to 3389).  The status should show as "Accessible".
+1. Select **check access** (verify the port is set to 3389).  The status should show as "Accessible".  If you are still seeing "Not accessible", refresh the page and try again, it may take a few minutes for the new inbound rule to be seen by the check access option.
 
 1. Now connect directly to the VM by clicking **Select** in the box that says Native RDP.
    
@@ -108,7 +108,10 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. You're now connected to the VM. In this case you were able to connect to the VM because the inbound traffic rule you created allows inbound traffic to the VM via RDP.  After a few seconds on the Welcome screen you may see a window to Choose privacy settings for your device, select **Accept**.  If the Networks window appears, select **No**.
 
 1. With the VM in the RDP session up and running, test outbound connectivity to the Internet from the VM.
-    1. From the open VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
+    1. From the open VM, select **Microsoft Edge** to open the browser. Since this is the first time you are opening the VM and the broswer, you may be prompted for some basic settings.  
+    1. You may be prompted to choose privacy settings for your device. Leave the default and select **Accept**.  
+    1. A side panel for Networks, may display.  Select **No**.
+    1. A window may appear that says "Browse the web with the best performing browser on Windows," select **Continue**, select **Start without your data**, select **Confirm and continue**, select **Continue without this data**, then finally select **Confirm and start browsing**.
     1. Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
     1. Once you've confirmed that you can access www.bing.com, close the browser window in the VM, but leave the VM up.
 
