@@ -1,16 +1,16 @@
 ---
 lab:
-    title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
-    module: 'Describe the compliance management capabilities in Microsoft Purview'
+    title: 'Explore the Microsoft Purview portal and Compliance Manager'
+    module: 'Describe the data compliance solutions of Microsoft Purview'
 ---
 
-# Lab: Explore the Microsoft Purview compliance portal & Compliance Manager
+# Lab: Explore the Microsoft Purview portal and Compliance Manager
 
 This lab maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Microsoft compliance
-- Module: Describe the compliance management capabilities in Microsoft Purview
-- Unit: Describe the Microsoft Purview compliance portal
+- Learning Path: Describe the capabilities of Microsoft Priva and Microsoft Purview
+- Module: Describe the data compliance solutions of Microsoft Purview
+- Unit: Describe Compliance Manager
 
 ## Lab scenario
 

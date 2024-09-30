@@ -1,12 +1,12 @@
 <!---
 ---
 Demo:
-    Title: 'Explore the eDiscovery workflow'
+    Title: 'Explore the eDiscovery'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of the Microsoft Priva and Microsoft Purview; Module 3: Describe the data compliance solutions of Microsoft Purview; Unit 2:  Describe eDiscovery'
 ---
 --->
 
-# Demo: Explore the eDiscovery (Standard) workflow
+# Demo: Explore eDiscovery (Standard)
 
 This demo maps to the following Learn content:
 
@@ -16,7 +16,7 @@ This demo maps to the following Learn content:
 
 ## Demo scenario
 
-In this demo you'll do a walk-through of the steps required for setting up eDiscovery, including setting up role permissions, creating an eDiscovery case, creating an eDiscovery hold and creating a search query.  NOTE: In the Microsoft Purview portal updates to the user interface are rolling out, gradually. Some lab/demo tenant may not yet show the newest UI, so all lab steps are shown using the Classic eDiscovery UI.
+In this demo you'll do a walk-through of the steps required for setting up eDiscovery, including setting up role permissions, creating an eDiscovery case, creating an eDiscovery hold and creating a search query.  NOTE: In the Microsoft Purview portal updates to the user interface are rolling out, gradually. Some lab/demo tenants may not yet show the newest UI, so all lab steps are shown using the Classic eDiscovery UI.
 
 ### Demo Part 1
 

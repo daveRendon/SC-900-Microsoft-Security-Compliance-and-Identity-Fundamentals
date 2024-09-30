@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'The Microsoft Defender portal'
-    Module: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 4: Describe the threat protection capabilities of Microsoft 365; Unit 7: Describe the Microsoft Defender portal'
+    Module: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 4: Describe the threat protection capabilities of Microsoft Defender XDR; Unit 7: Describe the Microsoft Defender portal'
 ---
 --->
 
@@ -11,7 +11,7 @@ Demo:
 This demo maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
-- Module: Describe the threat protection capabilities of Microsoft 365
+- Module: Describe the threat protection capabilities of Microsoft Defender XDR
 - Unit: Describe the Microsoft Defender portal
 
 ## Demo scenario
@@ -22,7 +22,7 @@ In this demo, you'll show the Microsoft Defender portal by walking through the c
 
 Explore the Microsoft Defender landing page.
 
-1. Open the browser tab for the Microsoft 365 security home page.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **https://admin.microsoft.com** and sign in with the admin credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH), to access the Microsoft 365 admin center. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Security**.  A new browser page opens to the welcome page of the Microsoft Defender portal.  
+1. Open the browser tab for the Microsoft Defender home page.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **https://admin.microsoft.com** and sign in with the admin credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH), to access the Microsoft 365 admin center. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Security**.  A new browser page opens to the welcome page of the Microsoft Defender portal.  
 
 1. The home page of the Microsoft Defender portal shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
@@ -52,7 +52,7 @@ In this part of the demo, you'll explore some of the options available from the 
     1. **Hunting** - From here you can build custom detection rules and hunt for specific threats in your environment.
     1. **Actions and submissions** - The unified Action center brings together remediation actions across Microsoft Defender for Endpoint and Microsoft Defender for Office 365. It lists pending and completed remediation actions for your devices, email & collaboration content, and identities in one location. In Microsoft 365 organizations with Exchange Online mailboxes, admins can use the Submissions page in the Microsoft Defender portal to submit messages, URLs, and attachments to Microsoft for analysis.
     1. **Partner catalog** - The partner catalog lists supported technology partners and professional services that can help your organization enhance the detection, investigation, and threat intelligence capabilities of the platform.
-1. **Threat Intelligence** - From the Threat Intelligence tab, users access Microsoft Defender Threat Intelligence and the capabilities support, including Threat analytics, intel profiles, intel explorer, and intel projects.
+1. **Threat Intelligence** - From the Threat Intelligence tab, users access Microsoft Defender Threat Intelligence and the capabilities the solution supports, including Threat analytics, intel profiles, intel explorer, and intel projects.
 1. **Assets** - The Assets tab allows you to view and manage your organization's inventory of protected and discovered assets (devices and identities).
 1. **Microsoft Sentinel** - Some Microsoft Sentinel capabilities are available in the Microsoft Sentinel section of the Defender portal.  This requires setting up the integration through the Settings page.
 1. **Identities** - The Identities node maps to functionality associated with Microsoft Defender for Identity. The Dashboard provides critical insights and real time data about identity threat detection and response (ITDR). The health Issues page lists any current health issues for your Defender for Identity deployment and sensors, alerting you to any problems in your Defender for Identity deployment. The tools page lists additional information to help manage your Microsoft Defender for Identity environment.
@@ -70,17 +70,15 @@ In this part of the demo, you'll explore some of the options available from the 
     1. Settings - Here you configure settings for the Defender portal, Defender XDR, solutions that are part of Microsoft Defender XDR, and Microsoft Sentinel.  Explore this at will.
 1. **Customize Navigation** - Here you can select to show or hide items in your navigation pane. Other admins will not see your changes.
 
-1. The left navigation panel provides links/access to information that is part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, hunting, action center, threat analytics, secure score and more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints), Defender for Office for 365 (links listed under Email and Collaboration), Microsoft Defender for Cloud Apps (links under Cloud apps), and more.  Explore these options by selecting some of the links.   To return to the home page of the Microsoft Defender portal, select **Home** on the left navigation panel.
-
 ### Demo Part 3
 
 In this part of the demo, you'll show how Microsoft Secure Score can help an organization improve its security posture.
 
-1. From the from the left navigation panel, select **Microsoft Secure Score**.
+1. From the from the left navigation panel, expand **Exposure management** then select **Secure Score**.
 
 1. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture. Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score. you can choose for the view of your score to include the achievable score, Planned score, and Current license score.
 
-1. The overview page also includes top recommended actions, comparison score, history, and additional resources.
+1. The overview page also includes top recommended actions, comparison score, history, and resources.
 
 1. Select **Recommended actions** from the top of the page.  Notice the information available for each item in the table.  
 
@@ -96,4 +94,4 @@ In this part of the demo, you'll show how Microsoft Secure Score can help an org
 
 ### Review
 
-In this demo, you explored the Microsoft Defender portal by walking through the content displayed on the landing page, you explored the options on the navigation panel that provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you showed how Microsoft Secure Score can help an organization improve its security posture.
+In this demo, you explored the Microsoft Defender portal by walking through the content displayed on the landing page, you explored the options on the navigation panel that provides quick access to functionality that is part of Microsoft Defender XDR.  Lastly you showed how Microsoft Secure Score can help an organization improve its security posture.

@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Microsoft Entra Conditional Access'
-    module: 'Describe the access management capabilities of Microsoft Entra ID'
+    module: 'Describe the access management capabilities of Microsoft Entra'
 ---
 
 # Lab: Microsoft Entra Conditional Access
@@ -9,7 +9,7 @@ lab:
 This lab maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft Entra
-- Module: Describe access management capabilities of Microsoft Entra ID
+- Module: Describe access management capabilities of Microsoft Entra
 - Unit: Describe Conditional Access
 
 ## Lab scenario

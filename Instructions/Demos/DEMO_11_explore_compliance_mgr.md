@@ -6,7 +6,7 @@ Demo:
 ---
 --->
 
-# Demo: Explore the Microsoft Purview compliance portal & Compliance Manager
+# Demo: Explore the Microsoft Purview portal & Compliance Manager
 
 This demo maps to the following Learn content:
 

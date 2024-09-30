@@ -1,16 +1,16 @@
 ---
 lab:
     title: 'Explore insider risk management in Microsoft Purview'
-    module: 'Describe the insider risk capabilities in Microsoft Purview'
+    module: 'Describe the data security solutions of Microsoft Purview'
 ---
 
 # Lab: Explore insider risk management in Microsoft Purview
 
 This lab maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Microsoft compliance
-- Module: Describe the insider risk capabilities in Microsoft Purview
-- Unit: Describe insider risk management
+- Learning Path: Describe the capabilities of Microsoft Priva and Microsoft Purview
+- Module: Describe the data security solutions of Microsoft Purview
+- Unit: Describe insider risk management in Microsoft Purview
 
 ## Lab scenario
 

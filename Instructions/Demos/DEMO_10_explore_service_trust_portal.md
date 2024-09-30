@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Service Trust Portal'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 1: Describe Microsoft’s Service Trust portal and privacy capabilities; Unit 2: Explore the Service Trust Portal'
+    Learning Path/Module/Unit: 'Describe the capabilities of Microsoft Priva and Microsoft Purview; Module 1: Describe Microsoft’s Service Trust portal and privacy capabilities; Unit 2: Explore the Service Trust Portal'
 ---
 --->
 

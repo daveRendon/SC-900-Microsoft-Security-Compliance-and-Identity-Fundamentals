@@ -1,15 +1,15 @@
 ---
 lab:
     title: 'Explore the Service Trust Portal'
-    module: 'Describe the compliance management capabilities at Microsoft'
+    module: 'Describe Microsoft’s Service Trust portal and privacy capabilities'
 ---
 
 # Lab: Explore the Service Trust Portal
 
 This lab maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Microsoft compliance
-- Module: Describe the compliance management capabilities at Microsoft
+- Learning Path: Describe the capabilities of Microsoft Priva and Microsoft Purview
+- Module: Describe Microsoft’s Service Trust portal and privacy capabilities
 - Unit: Explore the Service Trust Portal
 
 ## Lab scenario
