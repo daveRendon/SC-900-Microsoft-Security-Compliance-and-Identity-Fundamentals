@@ -25,7 +25,8 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previo
 1. Open the Microsoft Edge browser. In the address bar, enter **[admin.microsoft.com](https://admin.microsoft.com)** and sign in with the Microsoft 365 credentials provided by your authorized lab hoster (ALH).
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+    1. Since this is the first time you are logging in, you may be prompted to setup MFA. Follow the prompts on the screen to setup MFA.
+    1. If prompted to stay signed-in, select **Yes**.
 
 1. Under Admin centers, select **Identity** (you may need to select **Show all** and scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center.
 
@@ -102,18 +103,20 @@ In this task, you'll sign in as Sara Perez, for the first time.
 
 1. Open Microsoft Edge.
 
-2. In the address bar, enter **https://login.microsoft.com**.
+1. In the address bar, enter **https://login.microsoft.com**.
 
-3. Sign in as **sara@WWLxZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your ALH)
-4. Enter the temporary password you set in the previous task.
+1. Sign in as **sara@WWLxZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your ALH)
+1. Enter the temporary password you set in the previous task.
 
-5. You are now prompted to Update your password. In the Current password field, enter the temporary password from the previous task.
+1. You are now prompted to Update your password. In the Current password field, enter the temporary password from the previous task.
 
-6. In the New password field, enter a new password, confirm the password, then select **Sign in**.  Make note of your new password as you will need it for the subsequent lab exercise on SSPR.
+1. In the New password field, enter a new password, confirm the password, then select **Sign in**.  Make note of your new password as you will need it for the subsequent lab exercise on SSPR.
 
-7. You should now be successfully signed-in to Sara's Microsoft account.  Note that Sara's licensing that you assigned in the previous task was limited only to Power Automate Free and Power Apps for Developer and did not include E5 licensing.
+1. Since this is the first time you are logging in as Sara Perez, you may be prompted to setup MFA. Follow the prompts on the screen to setup MFA.
 
-8. Sign out by selecting the icon on the top right corner of the Microsoft 365 window that is shown as a circle with the letters SP (next to the question mark icon), then selecting **Sign out**, then close the browser.
+1. You should now be successfully signed-in to Sara's Microsoft account.  Note that Sara's licensing that you assigned in the previous task was limited only to Power Automate Free and Power Apps for Developer and did not include E5 licensing.
+
+1. Sign out by selecting the icon on the top right corner of the Microsoft 365 window that is shown as a circle with the letters SP (next to the question mark icon), then selecting **Sign out**, then close the browser.
 
 ### Review
 

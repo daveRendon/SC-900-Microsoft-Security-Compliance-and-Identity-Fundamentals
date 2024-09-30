@@ -26,8 +26,8 @@ Explore the Microsoft Defender landing page.
 
 1. Sign in with your admin credentials.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-
     1. Enter the admin password provided by your lab hosting provider. Select **Sign in**.
+    1. If you have previously logged in as the admin, you'll be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you'll be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, under Admin centers, select **Security**.  If you don't see Security listed, select **Show all**, then select **Security**.  A new browser page opens to the welcome page of the Microsoft Defender portal.  

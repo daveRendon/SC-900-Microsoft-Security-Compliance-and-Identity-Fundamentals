@@ -27,6 +27,7 @@ In this task, you'll view some of the parameters associated with the VM that tha
 1. Sign in with your admin credentials.
     1. In the Sign-in window, enter the username provided by your lab hosting provider then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
+    1. If you have previously logged in, you may be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in, you may be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
     1. If prompted to stay signed- in, select **Yes**.
 
 1. On the top of the page, underneath where it says Azure Services, select **Virtual Machines**.  If you don't see it listed, then in the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Virtual Machines** then select **Virtual Machines** from the search results.

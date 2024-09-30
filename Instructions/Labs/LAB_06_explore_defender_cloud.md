@@ -22,7 +22,7 @@ In this lab, you'll explore Microsoft Defender for Cloud.  NOTE: the Azure subsc
 
 In this task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud
 
-1. You should be the home page for Azure services.  If you previously closed the browser, ppen Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials.
+1. You should be the home page for Azure services.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials. If you have previously logged, you may be prompted for a secondary form of authentication, as par of MFA.  If you haven't previously logged in, you may be prompted to setup MFA.  Follow the prompts on the screen to setup MFA.
 
 1. In the blue search bar enter **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
 

@@ -22,7 +22,9 @@ In this lab, you'll walk through the process of setting up an insider risk polic
 
 In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you'll add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
+1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). If you have previously logged in as the admin, you'll be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you'll be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
+
+1. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
 
 1. From the left navigation panel, select **Settings**, expand **Roles & scopes** then select **Role groups**.
 

@@ -27,6 +27,7 @@ In this task you, as the admin, will reset the password for the user Diego Sicil
 1. Sign in with the Microsoft 365 admin credentials provided by your ALH.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
+    1. If you have previously logged in as the admin, you may be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you may be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
     1. When prompted to stay signed- in, select **Yes**.
 
 1. From the left navigation panel, expand **Identity**, expand **Users**, then select **All users**.
@@ -91,6 +92,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
     1. In the Sign-in window, enter **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
     1. Since the password you entered was only a temporary password, you need to update now. Enter the current password, enter a new password, then confirm the new password.  Make note of this new password as you will need to complete the task.
+    1. Since this is the first time you are logging in as Diego, you may be prompted to setup MFA. Follow the prompts on the screen to setup MFA.
     1. When prompted to stay signed- in, select **Yes**.
 
 1. You should be successfully logged in to Microsoft Entra admin center.

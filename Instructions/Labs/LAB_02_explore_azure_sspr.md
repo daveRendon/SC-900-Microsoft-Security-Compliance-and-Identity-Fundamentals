@@ -33,6 +33,7 @@ In this task you, as the admin, will walk through the some of the available conf
 1. Open the Microsoft Edge browser. In the address bar, enter **https://entra.microsoft.com** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
+    1. If you have previously logged in as the admin, you'll be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you'll be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
     1. When prompted to stay signed- in, select **Yes**.
 
 1. From the left navigation pane, expand the option for **Protection**, then select **Password reset**.  
@@ -83,7 +84,7 @@ In this task you, as user Sara Perez, will go through the registration process f
 
 1. Open the Microsoft Edge and in the address bar enter **https://login.microsoft.com**.
 
-1. Sign in as Sara Perez.
+1. Sign in as Sara Perez. The sign-in process may require MFA.
 
 1. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
