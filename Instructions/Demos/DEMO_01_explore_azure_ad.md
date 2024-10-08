@@ -50,8 +50,6 @@ In this demo, you'll access Microsoft Entra ID and walk through the various sett
     1. This is different than the assigned roles tab shown earlier in that that earlier tab is for role-based access control in Microsoft Entra.
     1. Although nothing is listed here, this is the tab where you would be able to view role assignments, assigned to Adele, for Azure resources. For example, if you were to create an Azure Resource Group, and you assign Adele a specific role, such as the owner or contributor for the resource group, you would see that role listed here. This is part of Azure Role Based Access Control (Azure RBAC). That role assignment is added and managed as part of that specific resource.
 
-1. From the left navigational panel, select **Authentication methods**.  Call out the description that says, “Here, you can set the phone numbers and email addresses that users use to perform multi-factor authentication and self-service password reset and reset a user’s password.” If a user is configured for SSPR or is required to use MFA, and you, as the admin, populate this, then they'll already be registered and will not have to go through the registration steps for SSPR or MFA.  It's common that a user would self-register vs an admin having to do this.
-
 1. Select the **X** on the top right corner of the page. This returns you to the user list.
 
 1. Select the **X** on the top right corner of the page. This returns you to the main page for the Microsoft Entra admin center.
