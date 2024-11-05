@@ -22,7 +22,7 @@ In this lab, you'll explore Microsoft Defender for Cloud.  NOTE: the Azure subsc
 
 In this task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud
 
-1. You should be the home page for Azure services.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials. If you have previously logged, you may be prompted for a secondary form of authentication, as par of MFA.  If you haven't previously logged in, you may be prompted to setup MFA.  Follow the prompts on the screen to setup MFA.
+1. You should be at the home page for Azure services.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials.
 
 1. In the blue search bar enter **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
 
@@ -40,7 +40,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
     1. Verify,the **All recommendations** tab is selected (underlined).  Note the dashboard view that shows Active recommendations by severity, Resource health, and more.
     1. From the list, select an item.  In the page that opens, you'll see a description and additional information that may include remediation steps, affected resources, and more. Exit out this page, by selecting the **X** on top-right corner of the screen.
 
-1. From the main left navigation panel, select **Regulatory compliance**.  **NOTE**: If you see that there is no subscription to calculate compliance for, its because there may be up to a 24 hour delay for information to appear. Move to Task 2.  If you do see information then proceed with the steps that follow.
+1. From the main left navigation panel, expand **Cloud Security** then select **Regulatory compliance**.  **NOTE**: If you see that there is no subscription to calculate compliance for, its because there may be up to a 24 hour delay for information to appear. Move to Task 2.  If you do see information then proceed with the steps that follow.
     1. The regulatory compliance page provides a list of compliance controls based on the Microsoft cloud security benchmark (verify that Microsoft cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
     1. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
     1. Select **NS-10. Ensure Domain Name System (DNS) security**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.

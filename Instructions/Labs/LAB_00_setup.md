@@ -23,15 +23,13 @@ This setup lab consists of enabling the Microsoft Audit Log and file monitoring 
 
 In this setup task, you will enable the Audit log and file monitoring capabilities in Microsoft 365.  
 
-1. Open Microsoft Edge. In the address bar, enter **https://admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar, enter **`https://admin.microsoft.com`**.
 
 1. Sign in with the admin credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH).
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of Microsoft Defender.  
-
-1. From the left navigation panel of the Microsoft Purview compliance portal, select **Show all**.
+1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of Microsoft Defender.
 
 1. In the left navigation panel, scroll down and expand **System**.  From the expanded list, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft Purview portal.
 
@@ -39,7 +37,7 @@ In this setup task, you will enable the Audit log and file monitoring capabiliti
 
 1. From the left navigation panel, under System, select **Settings**.
 
-1. From the settings page, select **Cloud apps**.   Scroll down, then under Information Protection select **Files**.
+1. From the settings page, select **Cloud apps**.   Scroll down, then under **Information Protection** select **Files**.
 
 1. If not already enabled, select the box next to where it says **Enable file monitoring** then select **Save**.  
 

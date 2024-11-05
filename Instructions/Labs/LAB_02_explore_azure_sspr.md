@@ -33,8 +33,8 @@ In this task you, as the admin, will walk through the some of the available conf
 1. Open the Microsoft Edge browser. In the address bar, enter **https://entra.microsoft.com** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. If you have previously logged in as the admin, you'll be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you'll be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
-    1. When prompted to stay signed- in, select **Yes**.
+    1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
+    1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
 
 1. From the left navigation pane, expand the option for **Protection**, then select **Password reset**.  
 

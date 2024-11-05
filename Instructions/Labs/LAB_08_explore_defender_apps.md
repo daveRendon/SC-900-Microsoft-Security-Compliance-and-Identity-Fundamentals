@@ -22,25 +22,25 @@ In this lab, you'll explore the capabilities of Microsoft Defender for Cloud App
 
 Explore Cloud Discovery.
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar, enter **`https://admin.microsoft.com`**.
 
 1. Sign in with your admin credentials for the Microsoft 365 tenant.
     1. In the Sign in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. If you have previously logged in as the admin, you'll be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you'll be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+    1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
+    1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
-1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  Close this.
+1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  You can choose to take the brief tour or close the window.
 
 1. From the left navigation panel, select **Cloud apps** to expand the list then select **Cloud Discovery**. This takes you to the Dashboard view.  Note the information available on the dashboard. From the dashboard view, you can select different tabs from the top of the page.  
 
 1. Select **Discovered apps**. The discovered apps window provides a more detailed view of the discovered apps, including risk score, traffic, number of users and more.
     1. From any item on the list, select the **ellipsis** (...) in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the **ellipsis** (...), again, to close the actions box.
-    1. Selecting a specific line item opens a details page for the specific app.  Select an item from the list and review the information available on the overview page.  For the selected item, select the **Cloud app usage** tab to see more detailed information, including  **Usage**, **Users, IP**, **Addresses**, and **Alerts**. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.  If you select Cloud discovery from the left navigation panel, it will take you back to the dashboard view.
+    1. Selecting a specific line item opens a details page for the specific app.  Select an item from the list and review the information available on the overview page.  For the selected item, select the **Cloud app usage** tab to see more detailed information, including  **Usage**, **Users, IP**, **Addresses**, and **Incidents**. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.  If you select Cloud discovery from the left navigation panel, it will take you back to the dashboard view.
     1. From the top of the page, select the **IP addresses** tab.  Here you'll find data including number of transactions, amount of traffic and upload amounts, by IP address.  Note that you can also filter by specific IP address or export the data for further analysis.
     1. From the top of the page select **Users**.  This is the same type of information provided when you select IP addresses, but instead it's listed for individual users.  Here again, you filter by specific user and export data for further analysis.
 

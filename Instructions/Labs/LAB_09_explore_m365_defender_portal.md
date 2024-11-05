@@ -27,12 +27,12 @@ Explore the Microsoft Defender landing page.
 1. Sign in with your admin credentials.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password provided by your lab hosting provider. Select **Sign in**.
-    1. If you have previously logged in as the admin, you'll be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you'll be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+    1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
+    1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, under Admin centers, select **Security**.  If you don't see Security listed, select **Show all**, then select **Security**.  A new browser page opens to the welcome page of the Microsoft Defender portal.  
 
-1. If this is the first time you visit the Microsoft Defender portal, you may get a pop-up window to take a quick tour.  It is recommended that you complete the tour.  Select **Take a quick tour**.  Read the description provided in each pop-up window, then select **Next**. Continue through the tour until you get to the end, then select **Done**.
+1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  You can choose to take the brief tour or close the window.
 
 1. The home page of the Microsoft Defender portal shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
@@ -58,7 +58,7 @@ In this part of the lab, you'll explore some of the options available from the l
 
 In this task, you'll explore how Microsoft Secure Score can help an organization improve its security posture.
 
-1. From the Welcome page of the Microsoft Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
+1. You should still be in the Microsoft Defender portal. From the left navigation panel, expand **Exposure Management** than select **Secure score**.  If Exposure Management is not shown in your tenant, then from the Welcome page of the Microsoft Defender portal, scroll down until you see the card for **Microsoft Secure Score**. Select the title of the card (the text will turn blue when you place your mouse cursor over the title of the card).
 
 1. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture. Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score.  A small window opens that allows you to include the achievable score, Planned score, and Current license score in the breakdown of your organization's secure score.  Select  **Include** again to close the window.
 
@@ -66,7 +66,7 @@ In this task, you'll explore how Microsoft Secure Score can help an organization
 
 1. Select **Recommended actions** from the top of the page.  Notice the information available in the table.  
 
-1. Select the first items from the list and review the available information. In the window that opens, note the status options available. Select the **Implementation** tab to view to view information related to implementation. Select the **X** at the top right corner to close this window.
+1. Select the first item from the list and review the available information. In the window that opens, note the status options available. Select the **Implementation** tab to view to view information related to implementation. Select the **X** at the top right corner to close this window.
 
 1. Select the **History** tab from the top of the page.  For each activity listed there is a brief statement that provides context.  Select an item from the history table.  On the top-right of the details page, under History, select **X events** (where X is a number).  The action history window opens and provides more information.  Select **Close** on the bottom of the page, then select the **X** on the top-right corner of the details page to return to the History page.
 
