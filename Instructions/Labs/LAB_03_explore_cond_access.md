@@ -25,8 +25,8 @@ In this task you, as the admin, will reset the password for the user Debra Berge
 1. Open Microsoft Edge.  In the address bar, enter **https://entra.microsoft.com**, and sign in with your admin credentials.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. If you have previously logged in as the admin, you may be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you may be prompted to complete the MFA registration process. Follow the prompts on the screen to setup MFA.
-    1. When prompted to stay signed- in, select **Yes**.
+    1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
+    1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
 
 1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
 
@@ -46,11 +46,11 @@ In this task you, as the admin, will reset the password for the user Debra Berge
 
 In this task, you'll go through the process of creating a conditional access policy in Microsoft Entra ID.
 
-1. Open the browser tab to the home page of the Microsoft Entra admin center.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **https://entra.microsoft.com** and sign in with the Microsoft 365 admin credentials provided by the ALH.
+1. Open the browser tab to the home page of the Microsoft Entra admin center.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **`https://entra.microsoft.com`** and sign in with the Microsoft 365 admin credentials provided by the ALH.
 
 1. From the left navigation pane, expand **Protection** then select **Conditional Access**.
 
-1. The Conditional access overview page is displayed.  Here you will see tiles showing the Policy summary and general alerts.  From the left navigation panel, select **Policies**.
+1. The Conditional access overview page is displayed. When you land on the overview page, the **Getting started** tab is selected (underlined). Select the **Overview** tab. Here you will see tiles showing the Policy summary and general alerts.  From the left navigation panel, select **Policies**.
 
 1. From the left navigation panel, select **Policies**. Any existing Conditional Access Policies are listed here. Select **+ New policy**.
 
@@ -80,7 +80,7 @@ In this task, you'll go through the process of creating a conditional access pol
 
 1. At the bottom of the page, Under Enable policy, select **On**, then select **Create**.
 
-1. From the left navigation pane select **Policies**. The MFA Pilot policy should appear in the list of conditional access policies (if needed, select the **Refresh icon** in the command bar at the top of the page).
+1. From the left navigation pane select **Policies**. The **Block admin portals** policy that you just created should appear in the list of conditional access policies (if needed, select the **Refresh icon** in the command bar at the top of the page).
 
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
 

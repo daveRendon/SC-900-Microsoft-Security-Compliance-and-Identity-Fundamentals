@@ -22,7 +22,7 @@ In this lab, you'll walk through the process of creating a Microsoft Sentinel in
 
 Create a Microsoft Sentinel instance
 
-1. You should be at the home page for Azure services.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials. If you have previously logged, you may be prompted for a secondary form of authentication, as par of MFA.  If you haven't previously logged in, you may be prompted to setup MFA.  Follow the prompts on the screen to setup MFA.
+1. You should be at the home page for Azure services.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials.
 
 1. In the blue search box on the top of the page, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
 
@@ -39,7 +39,7 @@ Create a Microsoft Sentinel instance
     1. Verify the information you entered then select **Create**.
     1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
 
-1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.  Note the three steps listed on the Get started page.
+1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.
 
 1. Keep this page open, as you'll use it in the next task.
 
@@ -72,7 +72,7 @@ The purpose of this task is to walk you through the steps involved in connecting
 
 1. From the Azure services home page, select Microsoft Sentinel, then select the instance you created, **SC900-LogAnalytics-workspace**.
 
-1. From the left navigation panel, select **Content hub**.
+1. From the left navigation panel, expand **Content Management** then select **Content hub**.
 
 1. Take a moment to scroll down to see the long list of available solutions and the options to filter the list.  For this task, your're looking for **Microsoft Defender for Cloud**.  Select it from the list.  In the side window that opens, read the description then select **Install**.  Once the installation is completed, the status column in the main window will show as installed.
 
@@ -95,21 +95,23 @@ The purpose of this task is to walk you through the steps involved in connecting
 
 In this task, you'll walk through some of the options available in Sentinel.
 
-1. From the left navigation panel, select **Hunting**.  From the top of the page, select the **Queries** tab. Read the description of what is a hunting query. Hunting queries can be added through the Content hub. Any queries previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes queries either as part of a solution or as a standalone query.  Scroll down to see the available options. Close the Content hub by selecting the **X** on the top-right corner of the window.
+1. From the left navigation panel, expand **Threat management** and explore the options listed in threat management.
+    1. Select **Incidents**.  Although no incidents are found, review the **What is it?** section.
+    1. Select **Hunting** then review the information provided in the **Hunts (Preview)** tab.
+    1. Select **Notebooks** and review the the **What is it?** section.
+    1. Select **Threat intelligence** and review the information on the page.
+    1. Select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen. **Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
 
-1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen. **Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
+1. From the left navigation panel, expand **Content Management**, then select **Community**. The community page includes Cybersecurity insights and updates from Microsoft Research, a link to a list of Microsoft Sentinel Blogs, a link to Microsoft Sentinel Forums, links the the latest editions to the Microsoft Sentinel Hub, and more. Explore this at will.
 
-1. From the left navigation panel, select **Community**. The community page includes Cybersecurity insights and updates from Microsoft Research, a link to a list of Microsoft Sentinel Blogs, a link to Microsoft Sentinel Forums, links the the latest editions to the Microsoft Sentinel Hub, and more. Explore this at will.
 
-1. From the left navigation panel, select **Analytics**.  There should be two active rules, one that is available by default and the rule you created in the previous task. Select the default rule **Advanced Multistage Attack Detection**.  Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch. **Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
-
-1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
-
-1. From the left navigation panel, select **Workbooks**. Read the description of the Microsoft Sentinel workbook.  Workbooks can be added through the Content hub. Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
+1. From the left navigation panel, expand **Configuration** and explore the options listed:
+    1. select **Analytics**.  There should be two active rules, one that is available by default and the rule you created in the previous task. Select the default rule **Advanced Multistage Attack Detection**.  Review the detailed information. **Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
+    1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
 1. Close the window by selecting the **X** on the top-right corner of the window.
 
-1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
+1. From the top left corner of the window, in the blue banner, select **Microsoft Azure** to return to the home page of the Azure portal.
 
 1. Sign out and close all the open browser tabs.
 

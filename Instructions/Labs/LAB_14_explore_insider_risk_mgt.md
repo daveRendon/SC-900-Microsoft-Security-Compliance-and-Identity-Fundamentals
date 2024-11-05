@@ -22,7 +22,7 @@ In this lab, you'll walk through the process of setting up an insider risk polic
 
 In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you'll add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). If you have previously logged in as the admin, you'll be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you'll be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
+1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). 
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
 
@@ -75,7 +75,7 @@ In this task, you'll walk through the settings for creating a policy.  The objec
 
 1. As an admin, you can immediately start assigning risk scores to users based on activity detected by the policies you selected. This bypasses the requirement that a triggering event (like a DLP policy match) is detected first.  An admin would do this by selecting the empty square next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  A new window opens that requires the admin to populate the available fields. Leave the fields empty as you won't configure this option, but for more information on why an admin would want to do this, select **Why would I do this??**.  Exit the window by selecting the **X** on the top right of the window.
 
-1. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview compliance portal.
+1. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview portal.
 
 1. Keep the browser tab open.
 

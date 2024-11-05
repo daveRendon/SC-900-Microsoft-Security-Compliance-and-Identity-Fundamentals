@@ -22,7 +22,7 @@ In this lab you'll go through the steps required for setting up eDiscovery, incl
 
 To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). If you have previously logged in as the admin, you'll be prompted to complete a secondary authentication, as part of MFA. IF you haven't previously logged in as the admin, you'll be prompted to complete the MFA registration process.Follow the prompts on the screen to setup MFA.
+1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH).
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
 
@@ -74,7 +74,7 @@ Now that you've created an eDiscovery (Standard) case, you can begin to work wit
 
 1. From the Choose locations page, select **Next**.  For expediency with the lab, no other locations will be included in this hold.
 
-1. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **+ Add condition** to view the available options.  Select **Next**. Without any conditions, the hold will preserve all content in the specified location.
+1. The Query conditions page enables you to create a hold for items based on a query that you can create.  You can choose to use the Query builder to create a query or for more advanced users, you can use the KQL editor. For this exercise, you want the hold to preserve all content in the specified location for the specified user, so you will not create a query.
 
 1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The Test hold should appear on the list.  If you don't immediately see it, select **Refresh**
 
@@ -82,7 +82,7 @@ Now that you've created an eDiscovery (Standard) case, you can begin to work wit
 
 ### Task 4
 
-With a hold in place, you'll create a search query.  Once your search is complete, the eDiscovery supports actions, such as exporting and downloading the results for future investigation.   Note:  Searches associated with an eDiscovery (Standard) case are not listed on the Content search page in the Microsoft Purview compliance portal. These searches are listed only on the Searches page of the associated eDiscovery (Standard) case.
+With a hold in place, you'll create a search query.  Once your search is complete, the eDiscovery supports actions, such as exporting and downloading the results for future investigation.   Note:  Searches associated with an eDiscovery (Standard) case are not listed on the Content search page in the Microsoft Purview portal. These searches are listed only on the Searches page of the associated eDiscovery (Standard) case.
 
 1. Open the SC900 Test Case tab on your browser.
 
