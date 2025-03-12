@@ -39,8 +39,8 @@ In this setup task, you will enable the Audit log and file monitoring capabiliti
     1. Now load the module, by entering **`Import-Module ExchangeOnlineManagement`**.
     1. To connect, enter **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**.  For the UPN, enter the administrator username found in the resources tab of your lab.
     1. You'll be prompted to sign in.  Enter the administrative username and password found in the resources tab of your lab.
-    1. To turn on Auditing, enter **Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true**. A message is displayed saying that it might take up to 60 minutes for the change to take effect.
-    1. Although it may take up to 60 minutes to take effect, you can verify the command was received by entering **Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled**.  If audit is enabled, the property UnifiedAuditLogIngestionEnabled will show a value of true.
+    1. To turn on Auditing, enter **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**. A message is displayed saying that it might take up to 60 minutes for the change to take effect.
+    1. Although it may take up to 60 minutes to take effect, you can verify the command was received by entering **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`**.  If audit is enabled, the property UnifiedAuditLogIngestionEnabled will show a value of true.
 
 1. From the left navigation panel, under System, select **Settings**.
 
