@@ -51,7 +51,7 @@ As with all Azure resources, you want to ensure that users have the proper permi
 
 1. From the SC900-Sentinel-RG page, select **Access control (IAM)** from the left navigation panel.
 
-1. From the Access control page, select **View my access**.  If you are using the Skillable Cloud Slice subscription, the role assignment is set to LOD Owner, which is a custom role assignment configured for this Cloud Slice subscription and it will grant you the necessary permissions. For demo purposes, however, it's good to show the Sentinel specific roles.  Close the assignments window by selecting the **X** on the top-right corner of the window.
+1. From the Access control page, select **View my access**.  You will most likely see a custom role assignment already configured for this subscription and it will grant you the necessary permissions.  This custom role would have been set up by the authorized lab hoster (ALH) providing the lab environment. For demo purposes, however, it's good to show the Sentinel specific roles.  Close the assignments window by selecting the **X** on the top-right corner of the window.
 
     1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
