@@ -60,9 +60,9 @@ In this setup task, you'll add yourself, as the MOD administrator, to the Compli
     1. Select **Next** then select **Save**, then finally select **Done**.
 1. This concludes the setup for the Microsoft 365 tenant, you can close the browser tabs.
 
-## Pre-Demo setup of the Azure Cloud Slice Subscription
+## Pre-Demo setup of the Azure Subscription
 
-For this setup you are using the Azure Cloud Slice environment which is separate than the Microsoft 365 tenant provided. Logout of the Microsoft 365 Tenant and login using the Azure Cloud Slice credentials.
+For this setup you are using the Azure environment which is separate than the Microsoft 365 tenant provided. Logout of the Microsoft 365 Tenant and login using the Azure credentials.
 
 ### Azure virtual machine
 
@@ -149,4 +149,4 @@ Check to make sure that an instance of Microsoft Sentinel has already been creat
 
 ### Review
 
-In this setup, you enabled the audit log capability in your Microsoft 365 tenant and you also created verified that a VM was preconfigured in your Azure Cloud Slice environment. You also prepared your Defender for Cloud and Microsoft Sentinel environment.
+In this setup, you enabled the audit log capability in your Microsoft 365 tenant and you also created verified that a VM was preconfigured in your Azure environment. You also prepared your Defender for Cloud and Microsoft Sentinel environment.
